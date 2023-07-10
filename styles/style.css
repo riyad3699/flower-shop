@@ -1,0 +1,52 @@
+body {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+}
+
+/* common shared styles */
+.btn-primary {
+    border-radius: 8px;
+    background: #E55473;
+    padding: 20px 40px;
+    border: 0;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.description-primary {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+/* header related styles */
+h1 {
+    color: #272727;
+    font-size: 70px;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+
+header {
+    display: flex;
+    background: rgba(229, 84, 115, 0.10);
+    padding: 50px 150px 0 150px;
+    justify-content: space-between;
+    align-items: center;
+    gap: 100px;
+
+}
+
+.header-pic {
+    max-width: 500px;
+}
+
+.banner {
+    max-width: 700px;
+}
+
+.description {
+    max-width: 550px;
+}
