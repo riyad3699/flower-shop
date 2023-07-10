@@ -7,18 +7,29 @@ body {
 .btn-primary {
     border-radius: 8px;
     background: #E55473;
-    padding: 20px 40px;
+    padding: 20px 43px;
     border: 0;
     color: #FFF;
     font-size: 20px;
     font-weight: 700;
+    margin-top: 20px;
 }
 
 .description-primary {
     color: rgba(39, 39, 39, 0.60);
-    font-size: 16px;
+    font-size: 17px;
     font-weight: 400;
+}
+
+.title-primary {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
     margin-bottom: 30px;
+}
+
+span {
+    color: #E55473;
 }
 
 /* header related styles */
@@ -47,6 +58,55 @@ header {
     max-width: 700px;
 }
 
-.description {
+/* hot deal related styles */
+.hot-deal {
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    align-items: center;
+    padding: 100px 200px;
+}
+
+.hot-deal-content {
+    text-align: center;
     max-width: 550px;
+}
+
+/* insta related styles */
+.insta-content {
+    text-align: center;
+    max-width: 550px;
+    margin: 100px auto 30px;
+}
+
+.insta-picture {
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+
+/* subscription related styles */
+.subscription {
+    text-align: center;
+    background-image: url(../flower-asset/Rectangle\ 9.png);
+    padding: 60px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+input {
+    width: 700px;
+    height: 64px;
+    border-radius: 8px;
+    border: 0;
+    margin-right: 10px;
+    padding-left: 20px;
+}
+
+.input-button{
+    align-items: center;
 }
