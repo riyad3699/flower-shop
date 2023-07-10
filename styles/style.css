@@ -12,13 +12,14 @@ body {
     color: #FFF;
     font-size: 20px;
     font-weight: 700;
-    margin-top: 20px;
+    margin: 0;
 }
 
 .description-primary {
     color: rgba(39, 39, 39, 0.60);
     font-size: 17px;
     font-weight: 400;
+    margin-bottom: 30px;
 }
 
 .title-primary {
@@ -96,6 +97,7 @@ header {
     padding: 60px;
     background-repeat: no-repeat;
     background-position: center;
+    margin-bottom: 100px;
 }
 
 input {
@@ -103,10 +105,43 @@ input {
     height: 64px;
     border-radius: 8px;
     border: 0;
-    margin-right: 10px;
+    margin: 0 10px;
     padding-left: 20px;
 }
 
-.input-button{
-    align-items: center;
+.input-button {
+    display: flex;
+    justify-items: center;
+    width: fit-content;
+    margin: auto;
+}
+
+/* footer related styles */
+
+footer {
+    background-color: black;
+    margin-bottom: 0;
+    padding: 80px 500px;
+    text-align: center;
+}
+
+.footer-title {
+    color: white;
+    font-size: 48px;
+    font-weight: 800;
+    margin: 0;
+}
+
+.footer-description {
+    color: rgba(255, 255, 255, 0.90);
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+small {
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 16px;
+    font-weight: 400;
 }
