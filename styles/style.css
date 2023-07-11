@@ -150,15 +150,14 @@ small {
 /* featured flowers style */
 .featured-flowers-picture {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     text-align: center;
-    align-items: flex-end;
-    gap: 25px;
     color: #272727;
     font-size: 24px;
     font-weight: 700;
     text-decoration-line: underline;
-    margin-top: 60px;
+    width: 1400px;
+    margin: 60px auto 100px;
 }
 
 .pink {
@@ -196,4 +195,19 @@ small {
     text-align: center;
     width: 600px;
     margin: auto;
+}
+
+/* same day related style */
+.same-day-delivery {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    width: 1400px;
+    margin: auto;
+    padding: 80px 0;
+    color: rgba(39, 39, 39, 0.80);
+    font-size: 24px;
+    font-weight: 600;
 }
